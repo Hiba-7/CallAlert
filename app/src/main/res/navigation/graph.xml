@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/statFragment">
+
+    <fragment
+        android:id="@+id/statFragment"
+        android:name="com.example.application2.fragments.StatFragment"
+        android:label="fragment_stat"
+        tools:layout="@layout/fragment_stat">
+        <action
+            android:id="@+id/action_statFragment_to_statnextFragment"
+            app:destination="@id/statnextFragment" />
+        <action
+            android:id="@+id/action_statFragment_to_statistique3Fragment"
+            app:destination="@id/statistique3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statnextFragment"
+        android:name="com.example.application2.fragments.StatnextFragment"
+        android:label="fragment_statnext"
+        tools:layout="@layout/fragment_statnext" />
+    <fragment
+        android:id="@+id/statistique3Fragment"
+        android:name="com.example.application2.fragments.Statistique3Fragment"
+        android:label="fragment_statistique3"
+        tools:layout="@layout/fragment_statistique3" />
+</navigation>

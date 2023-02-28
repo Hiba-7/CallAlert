@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graphadapter"
+    app:startDestination="@id/signalerFragment">
+    <action
+        android:id="@+id/action_signal3Fragment_to_addinfoFragment"
+        app:destination="@id/addinfoFragment" />
+    <action
+        android:id="@+id/action_addinfoFragment_to_appelFragment"
+        app:destination="@id/appelFragment" />
+    <fragment
+        android:id="@+id/addinfoFragment"
+        android:name="com.example.application2.fragments.AddinfoFragment"
+        android:label="AddinfoFragment">
+        <action
+            android:id="@+id/action_addinfoFragment_to_appelFragment"
+            app:destination="@id/appelFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_signal2Fragment_to_signal3Fragment"
+        app:destination="@id/signal3Fragment" />
+    <fragment
+        android:id="@+id/signal3Fragment"
+        android:name="com.example.application2.fragments.Signal3Fragment"
+        android:label="Signal3Fragment">
+        <action
+            android:id="@+id/action_signal3Fragment_to_addinfoFragment"
+            app:destination="@id/addinfoFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_signalerFragment_to_appelFragment"
+        app:destination="@id/appelFragment" />
+    <fragment
+        android:id="@+id/signal2Fragment"
+        android:name="com.example.application2.fragments.Signal2Fragment"
+        android:label="Signal2Fragment">
+        <action
+            android:id="@+id/action_signal2Fragment_to_signal3Fragment"
+            app:destination="@id/signal3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/appelFragment"
+        android:name="com.example.application2.fragments.AppelFragment"
+        android:label="fragment_appel"
+        tools:layout="@layout/fragment_appel" />
+    <fragment
+        android:id="@+id/signalerFragment"
+        android:name="com.example.application2.fragments.SignalerFragment"
+        android:label="fragment_signaler"
+        tools:layout="@layout/fragment_signaler">
+        <action
+            android:id="@+id/action_signalerFragment_to_appelFragment"
+            app:destination="@id/appelFragment" />
+        <action
+            android:id="@+id/action_signalerFragment_to_blankFragment3"
+            app:destination="@id/blankFragment3" />
+    </fragment>
+    <action
+        android:id="@+id/action_signalFragment_to_signal2Fragment"
+        app:destination="@id/signal2Fragment" />
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.example.application2.BlankFragment"
+        android:label="fragment_signal"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment3_to_signal2Fragment"
+            app:destination="@id/signal2Fragment" />
+    </fragment>
+</navigation>

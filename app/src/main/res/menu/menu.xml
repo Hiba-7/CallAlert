@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+       android:id="@+id/dashboardFragment"
+       android:icon="@drawable/dashboard"
+       android:title="Dashboard" />
+
+<item android:id="@+id/appelFragment"
+    android:icon="@drawable/phone"
+    android:title="Appels"/>
+   <item
+       android:id="@+id/signalerFragment"
+       android:icon="@drawable/signaler"
+       android:title="Signalement" />
+   <item
+       android:id="@+id/statFragment"
+       android:icon="@drawable/stat"
+       android:title="Statistiques" />
+
+
+
+
+</menu>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg">
+
+        <LinearLayout
+            android:scrollbars="vertical"
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="@+id/topsign"
+            tools:layout_editor_absoluteX="0dp">
+
+            <LinearLayout
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layoutDirection="ltr"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                app:layout_constraintTop_toTopOf="@+id/topsign"
+                tools:layout_editor_absoluteX="0dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Informations"
+                    android:textColor="#595959"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+
+                <TextView
+                    android:id="@+id/adresse2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Sexe: "
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Age: "
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/emplacement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="l’emplacement de l’enfant:: "
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/titrea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="3. Le motif de la notification"
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/titreb"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Un texte descriptif du motif de la notificiation, Un texte descriptif du motif de la notificiation."
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/titre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="4. Contenu de la notification"
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/dscr"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Un texte descriptif du contenu de la notification,Un texte descriptif du contenu de la notification,Un texte descriptif du contenu de la notification.."
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/dangr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Danger prefere garder son identité confidentiel: Oui "
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/titre5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="5. La position de l’enfant a-t-elle été préalablement notifié"
+                    android:textAlignment="center"
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/dscr1"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="L’autorité nationale de protection et de l’enfance ethnique ."
+                    android:textAlignment="center"
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+                <TextView
+                    android:id="@+id/titre6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="6. Le representant légal:"
+                    android:textAlignment="center"
+                    android:textColor="#595959"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="327dp"
+                    tools:layout_editor_absoluteY="45dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#4CAF50"
+                    android:text="Suivant"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

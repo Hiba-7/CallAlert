@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context="com.example.application2.BlankFragment" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg">
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            app:layout_constraintTop_toTopOf="@+id/topsign"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Informations"
+                android:textColor="#595959"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Numéro de série: 97324356"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+
+                android:layout_marginTop="20dp"
+                android:background="@color/btn_1"
+                app:layout_constraintTop_toBottomOf="@+id/info"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="35dp" />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="1. La personne qui signale le danger"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="nom: salim"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/prenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="prenom: bensalem"
+                android:textColor="#595959"
+                android:textSize="16dp"
+
+                />
+
+            <TextView
+                android:id="@+id/adresse1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Adresse: "
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/Numero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Numéro de telephone: "
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/titrea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="a- la personne qui signale : "
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/titreb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="b- Le representant legal de l’enfant: Gardien  "
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/titrec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="c- La personne physique est : femelle / Voisins"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/titred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="d- La personne normal est : femelle / Voisins"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/titree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="e- personne morale est : Une association"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+
+                android:layout_marginTop="20dp"
+                android:background="@color/btn_1"
+                app:layout_constraintTop_toBottomOf="@+id/info"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="35dp" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="2.Identifier l’identitée de l’enfant en danger "
+                android:textColor="#595959"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="nom: salim"
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/prenom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="prenom: bensalem"
+                android:textColor="#595959"
+                android:textSize="16dp"
+
+                />
+
+            <TextView
+                android:id="@+id/adresse2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Adresse: "
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:id="@+id/Numéro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Numéro de telephone: "
+                android:textColor="#595959"
+                android:textSize="16dp"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#4CAF50"
+                    android:text="Suivant"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/application2/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_addinfo.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_appel.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_login.xml" value="0.4250281848928974" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_signal.xml" value="0.25" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_signal2.xml" value="0.33" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_signal3.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_signalemnt.xml" value="0.33" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_signaler.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_stat.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_statistique.xml" value="0.11" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_statistique2.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_statnext.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/fragment_test.xml" value="0.17074275362318841" />
+        <entry key="..\:/application2/app/src/main/res/layout/list_item.xml" value="0.9" />
+        <entry key="..\:/application2/app/src/main/res/menu/menu.xml" value="0.19375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
